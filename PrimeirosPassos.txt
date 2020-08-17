@@ -12,7 +12,8 @@ https://xdebug.org/docs/install
 
 -> Windows
 https://xdebug.org/wizard
-Subir um servidor php php -s localhost:8000
+Subir um servidor 
+php -S localhost:8000
 Execultar phpinfo();
 Pegar as instomaçoes com ctrl+a e jogar na pagina https://xdebug.org/wizard
 Instructions
