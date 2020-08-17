@@ -23,6 +23,7 @@
     //var_dump('<pre>', $usuario);
     var_dump($usuario);
     //phpinfo();
+    echo "Teste";
     ?>
 </body>
 
