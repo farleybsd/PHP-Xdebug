@@ -1,0 +1,2 @@
+-> Acessar o diretorio da aplicação
+-> Composer Install
