@@ -1,2 +1,3 @@
 -> Acessar o diretorio da aplicação
 -> Composer Install
+-> Execultar um Teste vendor\bin\phpunit --filter testBuscaLeiloesNaoFinalizados

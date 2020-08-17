@@ -41,7 +41,7 @@ class LeilaoDaoTest extends TestCase
 
         // act
         $leiloes = $leilaoDao->recuperarNaoFinalizados();
-
+        //var_dump($leiloes);
         // assert
         self::assertCount(1, $leiloes);
         self::assertContainsOnlyInstancesOf(Leilao::class, $leiloes);
