@@ -18,7 +18,8 @@ use Alura\Leilao\Model\Leilao;
 require __DIR__ . '/vendor/autoload.php';
 
 $usuario =  new Leilao('Fiat 147 0Km');
-var_dump('<pre>',$usuario);
+//var_dump('<pre>',$usuario);
+phpinfo();
 ?>
 </body>
 </html>

@@ -1,3 +1,26 @@
 -> Acessar o diretorio da aplicação
 -> Composer Install
+
 -> Execultar um Teste vendor\bin\phpunit --filter testBuscaLeiloesNaoFinalizados
+
+-> Instalando o Xdebug
+https://xdebug.org/
+
+->Passo a passo de instalação
+https://xdebug.org/docs/install
+
+
+-> Windows
+https://xdebug.org/wizard
+Subir um servidor php php -s localhost:8000
+Execultar phpinfo();
+Pegar as instomaçoes com ctrl+a e jogar na pagina https://xdebug.org/wizard
+Instructions
+Download php_xdebug-2.9.6-7.4-vc15-nts-x86_64.dll
+Move the downloaded file to ext
+Edit C:\php7.4.8\php.ini and add the line
+Add no final do arquivo
+zend_extension =php_xdebug-2.9.6-7.4-vc15-nts-x86_64.dll
+Restart the webserver
+Depois Execultar phpinfo tem que ter esse retorno
+  with Xdebug v2.9.6, Copyright (c) 2002-2020, by Derick Rethans
