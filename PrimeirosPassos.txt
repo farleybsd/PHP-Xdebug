@@ -38,3 +38,4 @@ http://xdebug.org/docs/basic
   xdebug.cli_color=2
   xdebug.var_display_max_children=128
   Xdebug.var_display_max_depth=1
+  xdebug.collect_params=4
