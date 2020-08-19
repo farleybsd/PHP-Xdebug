@@ -50,4 +50,4 @@ http://xdebug.org/docs/basic
 
   -- webgrind
   -> entrar no diretorio webgrind
-  -> composer server
+  -> composer serve

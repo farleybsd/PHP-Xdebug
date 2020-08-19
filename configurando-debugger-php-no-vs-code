@@ -1,0 +1,30 @@
+-> colar
+https://imasters.com.br/back-end/configurando-debugger-php-no-vs-code
+
+1 -> Passo criar um arquivo teste.php
+<?php
+phpinfo();
+
+2 -> Passo execultar o arquivo teste.php na web
+colar o resultado nesse site : https://xdebug.org/wizard
+
+3 -> Clicar Analyse my phpinfo output
+
+4 -> Em seguida baixe a versão indicada no link gerado, logo abaixo de “Instructions”, e mova preferencialmente para a pasta “ext” da sua instalação do PHP.
+
+5 Após isso, no seu arquivo .ini – ou phpForApache.ini caso você utilize o WAMP – cole o seguinte código:
+
+[XDebug]
+zend_extension = php_xdebug-2.9.6-7.4-vc15-nts-x86_64.dll -- fica na pasta ext
+xdebug.remote_enable = 1
+xdebug.remote_autostart = 1
+
+6 -> Agora vamos configurar o VS Code para usar o debugger PHP.
+Primeiro baixe a extensão “PHP Debugger”, por Felix Becker. 
+A extensão requer que você faça os passos anteriores para funcionar,
+e então reinicie seu VS Code.
+https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug
+
+
+7 -> Agora clique no quarto ícone da lateral esquerda para entrar nas configurações de debug e clique na engrenagem “Configure or Fix ‘launch.json’” e escolha a opção PHP, isso gerará um arquivo .json dentro da pasta .vscode. Nessa pasta ficam definidas as configurações do workspace, como opções de debug, tarefas e configurações personalizadas.
+8 -> Após isso, o select “No Configurations” ficará escrito “Listen for XDebug”, e então você precisa apenas clicar no botão verde para iniciar o debugger.

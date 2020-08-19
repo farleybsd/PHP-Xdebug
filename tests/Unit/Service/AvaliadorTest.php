@@ -52,7 +52,8 @@ class AvaliadorTest extends TestCase
         $this->avaliador->avalia($leilao);
 
         $lances = $this->avaliador->getTresMaioresLances();
-
+        //var_dump($lances);
+        // exit();
         static::assertCount(3, $lances);
         static::assertEquals(2000, $lances[0]->getValor());
         static::assertEquals(1500, $lances[1]->getValor());

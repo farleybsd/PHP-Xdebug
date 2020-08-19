@@ -1,0 +1,1430 @@
+version: 1
+creator: xdebug 2.9.6 (PHP 7.4.0)
+cmd: C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\phpunit
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1) php:internal
+fn=(1) php::version_compare
+12 0 0
+
+fl=(1)
+fn=(2) php::ini_get
+26 0 0
+
+fl=(1)
+fn=(3) php::ini_set
+27 0 376
+
+fl=(1)
+fn=(4) php::file_exists
+31 0 0
+
+fl=(1)
+fn=(5) php::define
+32 0 24
+
+fl=(1)
+fn=(6) php::getopt
+51 0 56
+
+fl=(2) C:\MyGit\PHP-Xdebug\vendor\composer\autoload_real.php
+fn=(7) require_once::C:\MyGit\PHP-Xdebug\vendor\composer\autoload_real.php
+1 0 0
+
+fl=(1)
+fn=(8) php::spl_autoload_register
+25 0 520
+
+fl=(3) C:\MyGit\PHP-Xdebug\vendor\composer\ClassLoader.php
+fn=(9) require::C:\MyGit\PHP-Xdebug\vendor\composer\ClassLoader.php
+1 0 0
+
+fl=(2)
+fn=(10) ComposerAutoloaderInit9c8d430f219ccae82988b53689cb24e6::loadClassLoader
+9 1000 42712
+cfl=(3)
+cfn=(9)
+calls=1 0 0
+12 0 0
+
+fl=(1)
+fn=(11) php::spl_autoload_call
+26 0 0
+cfl=(2)
+cfn=(10)
+calls=1 0 0
+26 1000 42712
+
+fl=(1)
+fn=(12) php::spl_autoload_unregister
+27 0 -144
+
+fl=(1)
+fn=(13) php::function_exists
+29 0 0
+
+fl=(4) C:\MyGit\PHP-Xdebug\vendor\composer\autoload_static.php
+fn=(14) require_once::C:\MyGit\PHP-Xdebug\vendor\composer\autoload_static.php
+1 0 0
+
+fl=(1)
+fn=(15) php::Closure::bind
+636 0 920
+
+fl=(4)
+fn=(16) Composer\Autoload\ComposerStaticInit9c8d430f219ccae82988b53689cb24e6::getInitializer
+628 0 0
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+636 0 920
+
+fl=(4)
+fn=(17) Composer\Autoload\ClassLoader::Composer\Autoload\{closure:C:\MyGit\PHP-Xdebug\vendor\composer\autoload_static.php:630-636}
+630 0 -920
+
+fl=(1)
+fn=(8)
+302 0 128
+
+fl=(3)
+fn=(18) Composer\Autoload\ClassLoader->register
+300 0 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+302 0 128
+
+fl=(1)
+fn=(13)
+14 0 0
+
+fl=(5) C:\MyGit\PHP-Xdebug\vendor\symfony\polyfill-ctype\bootstrap.php
+fn=(19) require::C:\MyGit\PHP-Xdebug\vendor\symfony\polyfill-ctype\bootstrap.php
+1 0 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+14 0 0
+
+fl=(2)
+fn=(20) composerRequire9c8d430f219ccae82988b53689cb24e6
+66 0 9024
+cfl=(5)
+cfn=(19)
+calls=1 0 0
+69 0 0
+
+fl=(1)
+fn=(13)
+7 0 0
+
+fl=(6) C:\MyGit\PHP-Xdebug\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php
+fn=(21) require::C:\MyGit\PHP-Xdebug\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php
+1 0 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+7 0 0
+
+fl=(2)
+fn=(20)
+66 999 1520
+cfl=(6)
+cfn=(21)
+calls=1 0 0
+69 0 0
+
+fl=(2)
+fn=(22) ComposerAutoloaderInit9c8d430f219ccae82988b53689cb24e6::getLoader
+19 999 155320
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+25 0 520
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+26 1000 42712
+cfl=(1)
+cfn=(12)
+calls=1 0 0
+27 0 -144
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+29 0 0
+cfl=(4)
+cfn=(14)
+calls=1 0 0
+31 0 0
+cfl=(4)
+cfn=(16)
+calls=1 0 0
+33 0 920
+cfl=(4)
+cfn=(17)
+calls=1 0 0
+33 0 -920
+cfl=(3)
+cfn=(18)
+calls=1 0 0
+51 0 128
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+59 0 9024
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+59 999 1520
+
+fl=(7) C:\MyGit\PHP-Xdebug\vendor\autoload.php
+fn=(23) require::C:\MyGit\PHP-Xdebug\vendor\autoload.php
+1 0 13504
+cfl=(2)
+cfn=(7)
+calls=1 0 0
+5 0 0
+cfl=(2)
+cfn=(22)
+calls=1 0 0
+7 3000 209080
+
+fl=(3)
+fn=(24) Composer\Autoload\ClassLoader->findFile
+335 0 0
+
+fl=(8) C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\TextUI\Command.php
+fn=(25) include::C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\TextUI\Command.php
+1 0 0
+
+fl=(3)
+fn=(26) Composer\Autoload\includeFile
+442 3000 151120
+cfl=(8)
+cfn=(25)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27) Composer\Autoload\ClassLoader->loadClass
+319 0 0
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 0 0
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 3000 151120
+
+fl=(1)
+fn=(11)
+61 0 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+61 3000 151120
+
+fl=(3)
+fn=(24)
+335 0 0
+
+fl=(9) C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\Util\Getopt.php
+fn=(28) include::C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\Util\Getopt.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 1000 24400
+cfl=(9)
+cfn=(28)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 0 0
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 0 0
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 1000 24400
+
+fl=(1)
+fn=(11)
+284 0 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+284 1000 24400
+
+fl=(1)
+fn=(29) php::array_keys
+287 0 8248
+
+fl=(1)
+fn=(30) php::sort
+32 0 8248
+
+fl=(1)
+fn=(31) php::array_shift
+36 0 376
+
+fl=(1)
+fn=(32) php::reset
+39 0 0
+
+fl=(1)
+fn=(33) php::trim
+41 0 0
+
+fl=(1)
+fn=(34) php::array_map
+41 0 376
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+41 0 0
+
+fl=(1)
+fn=(35) php::current
+44 0 0
+
+fl=(1)
+fn=(36) php::key
+45 0 0
+
+fl=(1)
+fn=(37) php::next
+46 0 0
+
+fl=(1)
+fn=(38) php::substr
+66 0 40
+
+fl=(1)
+fn=(39) php::explode
+130 0 376
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 40
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(1)
+fn=(38)
+141 0 0
+
+fl=(3)
+fn=(24)
+335 0 0
+
+fl=(3)
+fn=(24)
+335 0 0
+
+fl=(10) C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\Exception.php
+fn=(40) include::C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\Exception.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 0 416
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 0 0
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 0 0
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 0 416
+
+fl=(1)
+fn=(11)
+36 0 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+36 0 416
+
+fl=(11) C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\Framework\Exception.php
+fn=(41) include::C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\Framework\Exception.php
+1 0 288
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+36 0 416
+
+fl=(3)
+fn=(26)
+442 999 6896
+cfl=(11)
+cfn=(41)
+calls=1 0 0
+444 0 704
+
+fl=(3)
+fn=(27)
+319 0 0
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 0 0
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 999 7600
+
+fl=(1)
+fn=(11)
+179 0 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+179 999 7600
+
+fl=(1)
+fn=(42) php::PHPUnit\Framework\Exception->__construct
+45 0 0
+
+fl=(1)
+fn=(43) php::PHPUnit\Framework\Exception->getTrace
+47 0 0
+
+fl=(11)
+fn=(44) PHPUnit\Framework\Exception->__construct
+43 0 2256
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+45 0 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+47 0 0
+
+fl=(9)
+fn=(45) PHPUnit\Util\Getopt::parseLongOption
+127 999 11504
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+130 0 376
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 40
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+141 0 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+179 999 7600
+cfl=(11)
+cfn=(44)
+calls=1 0 0
+179 0 2256
+
+fl=(9)
+fn=(46) PHPUnit\Util\Getopt::getopt
+22 999 -280
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+32 0 8248
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+36 0 376
+cfl=(1)
+cfn=(32)
+calls=1 0 0
+39 0 0
+cfl=(1)
+cfn=(34)
+calls=1 0 0
+41 0 376
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+44 0 0
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+45 0 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+46 0 0
+cfl=(1)
+cfn=(38)
+calls=1 0 0
+66 0 40
+cfl=(9)
+cfn=(45)
+calls=1 0 0
+66 1999 22896
+
+fl=(1)
+fn=(47) php::PHPUnit\Framework\Exception->getMessage
+290 0 0
+
+fl=(3)
+fn=(24)
+335 0 0
+
+fl=(12) C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\Runner\Version.php
+fn=(48) include::C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\Runner\Version.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 0 6464
+cfl=(12)
+cfn=(48)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 0 0
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 0 0
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 0 6464
+
+fl=(1)
+fn=(11)
+1117 0 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+1117 0 6464
+
+fl=(3)
+fn=(24)
+335 0 0
+
+fl=(13) C:\MyGit\PHP-Xdebug\vendor\sebastian\version\src\Version.php
+fn=(49) include::C:\MyGit\PHP-Xdebug\vendor\sebastian\version\src\Version.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 999 11328
+cfl=(13)
+cfn=(49)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 1000 0
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 0 0
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 999 11328
+
+fl=(1)
+fn=(11)
+36 0 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+36 2000 11328
+
+fl=(1)
+fn=(50) php::dirname
+36 0 80
+
+fl=(13)
+fn=(51) SebastianBergmann\Version->__construct
+37 0 0
+
+fl=(1)
+fn=(39)
+49 0 408
+
+fl=(1)
+fn=(52) php::count
+49 0 0
+
+fl=(1)
+fn=(53) php::is_dir
+78 0 0
+
+fl=(13)
+fn=(54) SebastianBergmann\Version->getGitInformation
+76 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+78 0 0
+
+fl=(13)
+fn=(55) SebastianBergmann\Version->getVersion
+46 0 -408
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+49 0 408
+cfl=(1)
+cfn=(52)
+calls=1 0 0
+49 0 0
+cfl=(13)
+cfn=(54)
+calls=1 0 0
+55 0 0
+
+fl=(12)
+fn=(56) PHPUnit\Runner\Version::id
+29 0 -80
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+36 2000 11328
+cfl=(1)
+cfn=(50)
+calls=1 0 0
+36 0 80
+cfl=(13)
+cfn=(51)
+calls=1 0 0
+36 0 0
+cfl=(13)
+cfn=(55)
+calls=1 0 0
+36 0 0
+
+fl=(12)
+fn=(57) PHPUnit\Runner\Version::getVersionString
+53 0 80
+cfl=(12)
+cfn=(56)
+calls=1 0 0
+55 2000 11328
+
+fl=(8)
+fn=(58) PHPUnit\TextUI\Command->printVersionString
+1111 999 -48
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+1117 0 6464
+cfl=(12)
+cfn=(57)
+calls=1 0 0
+1117 2000 11408
+
+fl=(3)
+fn=(24)
+335 0 0
+
+fl=(3)
+fn=(24)
+335 0 0
+
+fl=(14) C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php
+fn=(59) include::C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 1000 54320
+cfl=(14)
+cfn=(59)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 0 0
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 0 0
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 1000 54320
+
+fl=(1)
+fn=(11)
+65 0 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+65 1000 54320
+
+fl=(15) C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\TextUI\TestRunner.php
+fn=(60) include::C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\src\TextUI\TestRunner.php
+1 0 960
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+65 1000 54320
+
+fl=(3)
+fn=(26)
+442 1999 143816
+cfl=(15)
+cfn=(60)
+calls=1 0 0
+444 1000 55280
+
+fl=(3)
+fn=(27)
+319 0 0
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 0 0
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 3000 199096
+
+fl=(1)
+fn=(11)
+1128 0 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+1128 3000 199096
+
+fl=(8)
+fn=(61) PHPUnit\TextUI\Command->exitWithErrorMessage
+1122 1000 0
+cfl=(8)
+cfn=(58)
+calls=1 0 0
+1124 3000 17824
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+1128 3000 199096
+
+fl=(8)
+fn=(62) PHPUnit\TextUI\Command->handleArguments
+281 0 -8248
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+284 1000 24400
+cfl=(1)
+cfn=(29)
+calls=1 0 0
+287 0 8248
+cfl=(9)
+cfn=(46)
+calls=1 0 0
+287 2999 31656
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+290 0 0
+cfl=(8)
+cfn=(61)
+calls=1 0 0
+290 7000 216920
+
+fl=(8)
+fn=(63) PHPUnit\TextUI\Command->run
+172 0 0
+cfl=(8)
+cfn=(62)
+calls=1 0 0
+174 11000 272976
+
+fl=(8)
+fn=(64) PHPUnit\TextUI\Command::main
+161 0 112
+cfl=(8)
+cfn=(63)
+calls=1 0 0
+163 11000 272976
+
+fl=(16) C:\MyGit\PHP-Xdebug\vendor\phpunit\phpunit\phpunit
+fn=(65) {main}
+1 999 392
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+12 0 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+26 0 0
+cfl=(1)
+cfn=(3)
+calls=1 0 0
+27 0 376
+cfl=(1)
+cfn=(4)
+calls=1 0 0
+31 0 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+32 0 24
+cfl=(1)
+cfn=(6)
+calls=1 0 0
+51 0 56
+cfl=(7)
+cfn=(23)
+calls=1 0 0
+59 3000 222584
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+61 3000 151120
+cfl=(8)
+cfn=(64)
+calls=1 0 0
+61 11000 273088
+
+summary: 18000 1364648
+

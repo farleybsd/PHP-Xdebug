@@ -1,0 +1,30 @@
+version: 1
+creator: xdebug 2.9.6 (PHP 7.4.0)
+cmd: C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\index.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1) php:internal
+fn=(1) php::realpath
+9 0 112
+
+fl=(1)
+fn=(2) php::is_file
+9 0 80
+
+fl=(2) C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\index.php
+fn=(3) {main}
+1 0 -112
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+9 0 112
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+9 0 80
+
+summary: 1999 545912
+
