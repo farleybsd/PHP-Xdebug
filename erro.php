@@ -6,7 +6,7 @@ use Alura\Leilao\Model\Leilao;
 use Alura\Leilao\Model\Usuario;
 
 $leilao = new Leilao('m objeto muito legal');
-$leilao->finaliza();
+//$leilao->finaliza();
 $leilao->recebeLance(new Lance(new Usuario('Farley'),100));
-
+ini_set('xdebug.dump.Get','*');
 ?>

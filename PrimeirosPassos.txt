@@ -39,3 +39,8 @@ http://xdebug.org/docs/basic
   xdebug.var_display_max_children=128
   Xdebug.var_display_max_depth=1
   xdebug.collect_params=4
+  xdebug.dump.globals = 1
+  xdebug.show_local_vars=on
+  xdebug.dump.SERVER=REQUEST_URI
+  xdebug.dump.SERVER=REQUEST_METHOD
+  xdebug.dump.SERVER=*
