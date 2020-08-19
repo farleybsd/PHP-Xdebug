@@ -1,0 +1,562 @@
+version: 1
+creator: xdebug 2.9.6 (PHP 7.4.0)
+cmd: C:\MyGit\PHP-Xdebug\erro.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1) C:\MyGit\PHP-Xdebug\vendor\composer\autoload_real.php
+fn=(1) require_once::C:\MyGit\PHP-Xdebug\vendor\composer\autoload_real.php
+1 0 0
+
+fl=(2) php:internal
+fn=(2) php::spl_autoload_register
+25 0 520
+
+fl=(3) C:\MyGit\PHP-Xdebug\vendor\composer\ClassLoader.php
+fn=(3) require::C:\MyGit\PHP-Xdebug\vendor\composer\ClassLoader.php
+1 0 0
+
+fl=(1)
+fn=(4) ComposerAutoloaderInit9c8d430f219ccae82988b53689cb24e6::loadClassLoader
+9 999 42744
+cfl=(3)
+cfn=(3)
+calls=1 0 0
+12 0 0
+
+fl=(2)
+fn=(5) php::spl_autoload_call
+26 1000 0
+cfl=(1)
+cfn=(4)
+calls=1 0 0
+26 999 42744
+
+fl=(2)
+fn=(6) php::spl_autoload_unregister
+27 0 -144
+
+fl=(2)
+fn=(7) php::function_exists
+29 0 0
+
+fl=(4) C:\MyGit\PHP-Xdebug\vendor\composer\autoload_static.php
+fn=(8) require_once::C:\MyGit\PHP-Xdebug\vendor\composer\autoload_static.php
+1 0 0
+
+fl=(2)
+fn=(9) php::Closure::bind
+636 0 920
+
+fl=(4)
+fn=(10) Composer\Autoload\ComposerStaticInit9c8d430f219ccae82988b53689cb24e6::getInitializer
+628 0 0
+cfl=(2)
+cfn=(9)
+calls=1 0 0
+636 0 920
+
+fl=(4)
+fn=(11) Composer\Autoload\ClassLoader::Composer\Autoload\{closure:C:\MyGit\PHP-Xdebug\vendor\composer\autoload_static.php:630-636}
+630 0 -920
+
+fl=(2)
+fn=(2)
+302 0 128
+
+fl=(3)
+fn=(12) Composer\Autoload\ClassLoader->register
+300 0 0
+cfl=(2)
+cfn=(2)
+calls=1 0 0
+302 0 128
+
+fl=(2)
+fn=(7)
+14 0 0
+
+fl=(5) C:\MyGit\PHP-Xdebug\vendor\symfony\polyfill-ctype\bootstrap.php
+fn=(13) require::C:\MyGit\PHP-Xdebug\vendor\symfony\polyfill-ctype\bootstrap.php
+1 0 0
+cfl=(2)
+cfn=(7)
+calls=1 0 0
+14 0 0
+
+fl=(1)
+fn=(14) composerRequire9c8d430f219ccae82988b53689cb24e6
+66 999 9024
+cfl=(5)
+cfn=(13)
+calls=1 0 0
+69 0 0
+
+fl=(2)
+fn=(7)
+7 0 0
+
+fl=(6) C:\MyGit\PHP-Xdebug\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php
+fn=(15) require::C:\MyGit\PHP-Xdebug\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php
+1 0 0
+cfl=(2)
+cfn=(7)
+calls=1 0 0
+7 0 0
+
+fl=(1)
+fn=(14)
+66 999 1520
+cfl=(6)
+cfn=(15)
+calls=1 0 0
+69 0 0
+
+fl=(1)
+fn=(16) ComposerAutoloaderInit9c8d430f219ccae82988b53689cb24e6::getLoader
+19 4999 155320
+cfl=(2)
+cfn=(2)
+calls=1 0 0
+25 0 520
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+26 2000 42744
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+27 0 -144
+cfl=(2)
+cfn=(7)
+calls=1 0 0
+29 0 0
+cfl=(4)
+cfn=(8)
+calls=1 0 0
+31 0 0
+cfl=(4)
+cfn=(10)
+calls=1 0 0
+33 0 920
+cfl=(4)
+cfn=(11)
+calls=1 0 0
+33 0 -920
+cfl=(3)
+cfn=(12)
+calls=1 0 0
+51 0 128
+cfl=(1)
+cfn=(14)
+calls=1 0 0
+59 999 9024
+cfl=(1)
+cfn=(14)
+calls=1 0 0
+59 999 1520
+
+fl=(7) C:\MyGit\PHP-Xdebug\vendor\autoload.php
+fn=(17) require_once::C:\MyGit\PHP-Xdebug\vendor\autoload.php
+1 2000 14208
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+5 0 0
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+7 8999 209112
+
+fl=(2)
+fn=(18) php::strtr
+373 0 56
+
+fl=(2)
+fn=(19) php::strrpos
+378 0 0
+
+fl=(2)
+fn=(20) php::substr
+379 0 48
+
+fl=(2)
+fn=(19)
+378 0 0
+
+fl=(2)
+fn=(20)
+379 0 40
+
+fl=(2)
+fn=(20)
+382 0 48
+
+fl=(2)
+fn=(21) php::file_exists
+384 0 0
+
+fl=(3)
+fn=(22) Composer\Autoload\ClassLoader->findFileWithExtension
+370 0 -96
+cfl=(2)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(19)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(19)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(21)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(23) Composer\Autoload\ClassLoader->findFile
+335 0 0
+cfl=(3)
+cfn=(22)
+calls=1 0 0
+351 0 96
+
+fl=(8) C:\MyGit\PHP-Xdebug\src\Model\Leilao.php
+fn=(24) include::C:\MyGit\PHP-Xdebug\src\Model\Leilao.php
+1 0 0
+
+fl=(3)
+fn=(25) Composer\Autoload\includeFile
+442 0 9536
+cfl=(8)
+cfn=(24)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(26) Composer\Autoload\ClassLoader->loadClass
+319 0 -96
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+321 0 96
+cfl=(3)
+cfn=(25)
+calls=1 0 0
+322 0 9536
+
+fl=(2)
+fn=(5)
+8 0 0
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+8 0 9536
+
+fl=(2)
+fn=(27) php::DateTimeImmutable->__construct
+23 0 904
+
+fl=(8)
+fn=(28) Alura\Leilao\Model\Leilao->__construct
+18 0 48
+cfl=(2)
+cfn=(27)
+calls=1 0 0
+23 0 904
+
+fl=(8)
+fn=(29) Alura\Leilao\Model\Leilao->finaliza
+43 0 0
+
+fl=(2)
+fn=(18)
+373 0 56
+
+fl=(2)
+fn=(19)
+378 0 0
+
+fl=(2)
+fn=(20)
+379 0 48
+
+fl=(2)
+fn=(19)
+378 0 0
+
+fl=(2)
+fn=(20)
+379 0 40
+
+fl=(2)
+fn=(20)
+382 0 40
+
+fl=(2)
+fn=(21)
+384 0 0
+
+fl=(3)
+fn=(22)
+370 999 -88
+cfl=(2)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(19)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(19)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(21)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(23)
+335 0 0
+cfl=(3)
+cfn=(22)
+calls=1 0 0
+351 999 96
+
+fl=(9) C:\MyGit\PHP-Xdebug\src\Model\Lance.php
+fn=(30) include::C:\MyGit\PHP-Xdebug\src\Model\Lance.php
+1 0 0
+
+fl=(3)
+fn=(25)
+442 0 3248
+cfl=(9)
+cfn=(30)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(26)
+319 0 -96
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+321 999 96
+cfl=(3)
+cfn=(25)
+calls=1 0 0
+322 0 3248
+
+fl=(2)
+fn=(5)
+10 0 0
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+10 999 3248
+
+fl=(2)
+fn=(18)
+373 0 56
+
+fl=(2)
+fn=(19)
+378 0 0
+
+fl=(2)
+fn=(20)
+379 0 48
+
+fl=(2)
+fn=(19)
+378 0 0
+
+fl=(2)
+fn=(20)
+379 0 40
+
+fl=(2)
+fn=(20)
+382 0 48
+
+fl=(2)
+fn=(21)
+384 0 0
+
+fl=(3)
+fn=(22)
+370 0 -96
+cfl=(2)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(19)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(19)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(21)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(23)
+335 0 0
+cfl=(3)
+cfn=(22)
+calls=1 0 0
+351 0 96
+
+fl=(10) C:\MyGit\PHP-Xdebug\src\Model\Usuario.php
+fn=(31) include::C:\MyGit\PHP-Xdebug\src\Model\Usuario.php
+1 0 0
+
+fl=(3)
+fn=(25)
+442 999 1728
+cfl=(10)
+cfn=(31)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(26)
+319 0 -96
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+321 0 96
+cfl=(3)
+cfn=(25)
+calls=1 0 0
+322 999 1728
+
+fl=(2)
+fn=(5)
+10 0 0
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+10 999 1728
+
+fl=(10)
+fn=(32) Alura\Leilao\Model\Usuario->__construct
+10 0 0
+
+fl=(9)
+fn=(33) Alura\Leilao\Model\Lance->__construct
+12 0 0
+
+fl=(2)
+fn=(34) php::DomainException->__construct
+30 0 0
+
+fl=(8)
+fn=(35) Alura\Leilao\Model\Leilao->recebeLance
+27 0 5096
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+30 0 0
+
+fl=(11) C:\MyGit\PHP-Xdebug\erro.php
+fn=(36) {main}
+1 2000 712
+cfl=(7)
+cfn=(17)
+calls=1 0 0
+2 10999 223320
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+8 0 9536
+cfl=(8)
+cfn=(28)
+calls=1 0 0
+8 0 952
+cfl=(8)
+cfn=(29)
+calls=1 0 0
+9 0 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+10 999 3248
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+10 999 1728
+cfl=(10)
+cfn=(32)
+calls=1 0 0
+10 0 0
+cfl=(9)
+cfn=(33)
+calls=1 0 0
+10 0 0
+cfl=(8)
+cfn=(35)
+calls=1 0 0
+10 0 5096
+
+fl=(2)
+fn=(37) php::DomainException->getTraceAsString
+1 0 256
+
+fl=(2)
+fn=(38) php::DomainException->__toString
+1 0 0
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+0 0 256
+
+summary: 57000 855216
+
