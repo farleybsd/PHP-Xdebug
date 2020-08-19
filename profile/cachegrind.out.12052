@@ -1,0 +1,3926 @@
+version: 1
+creator: xdebug 2.9.6 (PHP 7.4.0)
+cmd: C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\index.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1) php:internal
+fn=(1) php::realpath
+9 0 0
+
+fl=(1)
+fn=(2) php::is_file
+9 0 0
+
+fl=(2) C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\config.php
+fn=(3) require::C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\config.php
+1 0 0
+
+fl=(3) C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\library\Reader.php
+fn=(4) require::C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\library\Reader.php
+1 0 0
+
+fl=(4) C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\library\Preprocessor.php
+fn=(5) require::C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\library\Preprocessor.php
+1 0 0
+
+fl=(5) C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\library\FileHandler.php
+fn=(6) require::C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\library\FileHandler.php
+1 3000 54128
+cfl=(3)
+cfn=(4)
+calls=1 0 0
+2 0 0
+cfl=(4)
+cfn=(5)
+calls=1 0 0
+3 0 0
+
+fl=(1)
+fn=(7) php::set_time_limit
+25 0 408
+
+fl=(1)
+fn=(8) php::ini_get
+28 0 0
+
+fl=(1)
+fn=(9) php::date_default_timezone_set
+29 0 24
+
+fl=(6) C:\MyGit\PHP-Xdebug\profile\webgrind-master\webgrind-master\index.php
+fn=(10) get
+228 0 0
+
+fl=(1)
+fn=(8)
+126 0 0
+
+fl=(1)
+fn=(11) php::preg_replace
+130 0 64
+
+fl=(2)
+fn=(12) Webgrind_Config::xdebugOutputFormat
+125 0 -16
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+126 0 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+130 0 64
+
+fl=(1)
+fn=(8)
+138 0 0
+
+fl=(1)
+fn=(1)
+141 0 56
+
+fl=(2)
+fn=(13) Webgrind_Config::xdebugOutputDir
+137 0 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+138 0 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+141 0 56
+
+fl=(1)
+fn=(14) php::scandir
+78 0 720
+
+fl=(1)
+fn=(15) php::preg_grep
+78 0 376
+
+fl=(1)
+fn=(16) php::function_exists
+82 0 0
+
+fl=(1)
+fn=(17) php::xdebug_get_profiler_filename
+83 0 80
+
+fl=(1)
+fn=(1)
+83 0 80
+
+fl=(1)
+fn=(18) php::strstr
+91 0 0
+
+fl=(1)
+fn=(1)
+95 0 80
+
+fl=(1)
+fn=(18)
+91 0 0
+
+fl=(1)
+fn=(1)
+95 0 80
+
+fl=(1)
+fn=(19) php::preg_match
+54 0 0
+
+fl=(1)
+fn=(20) php::fopen
+58 999 864
+
+fl=(1)
+fn=(21) php::fgets
+60 0 8232
+
+fl=(1)
+fn=(19)
+61 0 56
+
+fl=(1)
+fn=(21)
+60 0 64
+
+fl=(1)
+fn=(19)
+61 0 0
+
+fl=(1)
+fn=(21)
+60 0 64
+
+fl=(1)
+fn=(19)
+61 0 440
+
+fl=(1)
+fn=(21)
+60 0 40
+
+fl=(1)
+fn=(22) php::fclose
+65 0 -8600
+
+fl=(5)
+fn=(23) Webgrind_FileHandler->getInvokeUrl
+53 0 -672
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+54 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+58 999 864
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 8232
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+61 0 56
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 64
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+61 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 64
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+61 0 440
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 40
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+65 0 -8600
+
+fl=(1)
+fn=(24) php::rtrim
+98 0 0
+
+fl=(1)
+fn=(25) php::dirname
+99 0 112
+
+fl=(1)
+fn=(25)
+99 0 96
+
+fl=(1)
+fn=(26) php::filemtime
+103 0 56
+
+fl=(1)
+fn=(27) php::filesize
+106 0 0
+
+fl=(1)
+fn=(28) php::round
+200 0 0
+
+fl=(5)
+fn=(29) Webgrind_FileHandler->bytestostring
+193 0 32
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+200 0 0
+
+fl=(1)
+fn=(18)
+91 0 0
+
+fl=(1)
+fn=(1)
+95 0 80
+
+fl=(1)
+fn=(19)
+54 0 0
+
+fl=(1)
+fn=(20)
+58 1000 432
+
+fl=(1)
+fn=(21)
+60 0 8232
+
+fl=(1)
+fn=(19)
+61 0 56
+
+fl=(1)
+fn=(21)
+60 0 64
+
+fl=(1)
+fn=(19)
+61 0 0
+
+fl=(1)
+fn=(21)
+60 0 80
+
+fl=(1)
+fn=(19)
+61 0 480
+
+fl=(1)
+fn=(21)
+60 0 40
+
+fl=(1)
+fn=(22)
+65 0 -8600
+
+fl=(5)
+fn=(23)
+53 0 -704
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+54 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+58 1000 432
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 8232
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+61 0 56
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 64
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+61 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 80
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+61 0 480
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 40
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+65 0 -8600
+
+fl=(1)
+fn=(24)
+98 0 0
+
+fl=(1)
+fn=(25)
+99 0 112
+
+fl=(1)
+fn=(25)
+99 0 96
+
+fl=(1)
+fn=(26)
+103 0 0
+
+fl=(1)
+fn=(27)
+106 0 0
+
+fl=(1)
+fn=(28)
+200 0 0
+
+fl=(5)
+fn=(29)
+193 0 32
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+200 0 0
+
+fl=(1)
+fn=(18)
+91 0 0
+
+fl=(1)
+fn=(1)
+95 0 80
+
+fl=(1)
+fn=(19)
+54 0 0
+
+fl=(1)
+fn=(20)
+58 999 424
+
+fl=(1)
+fn=(21)
+60 0 8232
+
+fl=(1)
+fn=(19)
+61 0 56
+
+fl=(1)
+fn=(21)
+60 0 64
+
+fl=(1)
+fn=(19)
+61 0 0
+
+fl=(1)
+fn=(21)
+60 0 80
+
+fl=(1)
+fn=(19)
+61 0 480
+
+fl=(1)
+fn=(21)
+60 0 40
+
+fl=(1)
+fn=(22)
+65 0 -8592
+
+fl=(5)
+fn=(23)
+53 0 -704
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+54 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+58 999 424
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 8232
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+61 0 56
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 64
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+61 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 80
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+61 0 480
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+60 0 40
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+65 0 -8592
+
+fl=(1)
+fn=(24)
+98 0 0
+
+fl=(1)
+fn=(25)
+99 0 112
+
+fl=(1)
+fn=(25)
+99 0 96
+
+fl=(1)
+fn=(26)
+103 0 -8
+
+fl=(1)
+fn=(27)
+106 0 0
+
+fl=(1)
+fn=(28)
+200 0 0
+
+fl=(5)
+fn=(29)
+193 0 32
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+200 0 0
+
+fl=(5)
+fn=(30) Webgrind_FileHandler->getFiles
+77 999 -312
+cfl=(1)
+cfn=(14)
+calls=1 0 0
+78 0 720
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+78 0 376
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+82 0 0
+cfl=(1)
+cfn=(17)
+calls=1 0 0
+83 0 80
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+83 0 80
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+91 0 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+95 0 80
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+91 0 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+95 0 80
+cfl=(5)
+cfn=(23)
+calls=1 0 0
+98 999 488
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+98 0 0
+cfl=(1)
+cfn=(25)
+calls=1 0 0
+99 0 112
+cfl=(1)
+cfn=(25)
+calls=1 0 0
+99 0 96
+cfl=(1)
+cfn=(26)
+calls=1 0 0
+103 0 56
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+106 0 0
+cfl=(5)
+cfn=(29)
+calls=1 0 0
+106 0 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+91 0 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+95 0 80
+cfl=(5)
+cfn=(23)
+calls=1 0 0
+98 1000 80
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+98 0 0
+cfl=(1)
+cfn=(25)
+calls=1 0 0
+99 0 112
+cfl=(1)
+cfn=(25)
+calls=1 0 0
+99 0 96
+cfl=(1)
+cfn=(26)
+calls=1 0 0
+103 0 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+106 0 0
+cfl=(5)
+cfn=(29)
+calls=1 0 0
+106 0 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+91 0 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+95 0 80
+cfl=(5)
+cfn=(23)
+calls=1 0 0
+98 999 80
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+98 0 0
+cfl=(1)
+cfn=(25)
+calls=1 0 0
+99 0 112
+cfl=(1)
+cfn=(25)
+calls=1 0 0
+99 0 96
+cfl=(1)
+cfn=(26)
+calls=1 0 0
+103 0 -8
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+106 0 0
+cfl=(5)
+cfn=(29)
+calls=1 0 0
+106 0 32
+
+fl=(1)
+fn=(16)
+151 0 0
+
+fl=(1)
+fn=(31) php::sys_get_temp_dir
+151 0 128
+
+fl=(1)
+fn=(32) php::is_writable
+151 0 0
+
+fl=(1)
+fn=(31)
+155 0 80
+
+fl=(1)
+fn=(1)
+155 0 80
+
+fl=(2)
+fn=(33) Webgrind_Config::storageDir
+147 0 -160
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+151 0 0
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+151 0 128
+cfl=(1)
+cfn=(32)
+calls=1 0 0
+151 0 0
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+155 0 80
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+155 0 80
+
+fl=(1)
+fn=(14)
+118 24000 561872
+
+fl=(1)
+fn=(15)
+118 999 376
+
+fl=(1)
+fn=(16)
+125 0 0
+
+fl=(1)
+fn=(17)
+125 0 80
+
+fl=(1)
+fn=(1)
+125 0 80
+
+fl=(1)
+fn=(1)
+125 0 96
+
+fl=(1)
+fn=(26)
+129 0 32
+
+fl=(1)
+fn=(27)
+131 0 0
+
+fl=(1)
+fn=(28)
+200 0 0
+
+fl=(5)
+fn=(29)
+193 0 32
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+200 0 0
+
+fl=(1)
+fn=(16)
+125 0 0
+
+fl=(1)
+fn=(17)
+125 0 80
+
+fl=(1)
+fn=(1)
+125 0 80
+
+fl=(1)
+fn=(1)
+125 0 96
+
+fl=(1)
+fn=(26)
+129 0 0
+
+fl=(1)
+fn=(27)
+131 0 0
+
+fl=(1)
+fn=(28)
+200 0 0
+
+fl=(5)
+fn=(29)
+193 0 32
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+200 0 0
+
+fl=(1)
+fn=(16)
+125 0 0
+
+fl=(1)
+fn=(17)
+125 0 80
+
+fl=(1)
+fn=(1)
+125 0 80
+
+fl=(1)
+fn=(1)
+125 0 96
+
+fl=(1)
+fn=(26)
+129 0 0
+
+fl=(1)
+fn=(27)
+131 0 0
+
+fl=(1)
+fn=(28)
+200 0 0
+
+fl=(5)
+fn=(29)
+193 0 32
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+200 0 0
+
+fl=(5)
+fn=(34) Webgrind_FileHandler->getPrepFiles
+117 0 -561056
+cfl=(1)
+cfn=(14)
+calls=1 0 0
+118 24000 561872
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+118 999 376
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+125 0 0
+cfl=(1)
+cfn=(17)
+calls=1 0 0
+125 0 80
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+125 0 80
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+125 0 96
+cfl=(1)
+cfn=(26)
+calls=1 0 0
+129 0 32
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+131 0 0
+cfl=(5)
+cfn=(29)
+calls=1 0 0
+131 0 32
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+125 0 0
+cfl=(1)
+cfn=(17)
+calls=1 0 0
+125 0 80
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+125 0 80
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+125 0 96
+cfl=(1)
+cfn=(26)
+calls=1 0 0
+129 0 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+131 0 0
+cfl=(5)
+cfn=(29)
+calls=1 0 0
+131 0 32
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+125 0 0
+cfl=(1)
+cfn=(17)
+calls=1 0 0
+125 0 80
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+125 0 80
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+125 0 96
+cfl=(1)
+cfn=(26)
+calls=1 0 0
+129 0 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+131 0 0
+cfl=(5)
+cfn=(29)
+calls=1 0 0
+131 0 32
+
+fl=(1)
+fn=(35) php::str_replace
+33 0 48
+
+fl=(1)
+fn=(35)
+33 0 48
+
+fl=(1)
+fn=(35)
+33 0 48
+
+fl=(5)
+fn=(36) Webgrind_FileHandler->mtimeCmp
+179 0 0
+
+fl=(5)
+fn=(36)
+179 0 0
+
+fl=(1)
+fn=(37) php::uasort
+43 0 0
+cfl=(5)
+cfn=(36)
+calls=1 0 0
+43 0 0
+cfl=(5)
+cfn=(36)
+calls=1 0 0
+43 0 0
+
+fl=(5)
+fn=(38) Webgrind_FileHandler->__construct
+25 999 -2008
+cfl=(2)
+cfn=(12)
+calls=1 0 0
+27 0 48
+cfl=(2)
+cfn=(13)
+calls=1 0 0
+27 0 56
+cfl=(5)
+cfn=(30)
+calls=1 0 0
+27 3999 2680
+cfl=(2)
+cfn=(33)
+calls=1 0 0
+30 0 128
+cfl=(5)
+cfn=(34)
+calls=1 0 0
+30 25000 2088
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+33 0 48
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+33 0 48
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+33 0 48
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+43 0 0
+
+fl=(5)
+fn=(39) Webgrind_FileHandler::getInstance
+19 0 40
+cfl=(5)
+cfn=(38)
+calls=1 0 0
+21 29999 3136
+
+fl=(6)
+fn=(10)
+228 0 0
+
+fl=(6)
+fn=(10)
+228 0 0
+
+fl=(1)
+fn=(16)
+151 0 0
+
+fl=(1)
+fn=(31)
+151 0 80
+
+fl=(1)
+fn=(32)
+151 0 0
+
+fl=(1)
+fn=(31)
+155 0 80
+
+fl=(1)
+fn=(1)
+155 0 80
+
+fl=(2)
+fn=(33)
+147 0 -160
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+151 0 0
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+151 0 80
+cfl=(1)
+cfn=(32)
+calls=1 0 0
+151 0 0
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+155 0 80
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+155 0 80
+
+fl=(1)
+fn=(20)
+71 0 456
+
+fl=(1)
+fn=(40) php::fread
+247 0 8232
+
+fl=(1)
+fn=(41) php::unpack
+247 0 376
+
+fl=(1)
+fn=(42) php::array_values
+251 0 376
+
+fl=(3)
+fn=(43) Webgrind_Reader->read
+246 999 -416
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 8232
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(1)
+fn=(40)
+247 0 384
+
+fl=(1)
+fn=(41)
+247 0 8248
+
+fl=(1)
+fn=(42)
+251 0 8248
+
+fl=(3)
+fn=(43)
+246 0 -8632
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 384
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 8248
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 8248
+
+fl=(3)
+fn=(44) Webgrind_Reader->init
+87 0 -376
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+88 999 8568
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+91 0 8248
+
+fl=(3)
+fn=(45) Webgrind_Reader->__construct
+70 0 376
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+71 0 456
+cfl=(3)
+cfn=(44)
+calls=1 0 0
+76 999 16440
+
+fl=(5)
+fn=(46) Webgrind_FileHandler->getTraceReader
+162 0 32
+cfl=(2)
+cfn=(33)
+calls=1 0 0
+163 0 80
+cfl=(3)
+cfn=(45)
+calls=1 0 0
+165 999 17272
+
+fl=(6)
+fn=(10)
+228 0 0
+
+fl=(1)
+fn=(47) php::fseek
+263 0 0
+
+fl=(3)
+fn=(48) Webgrind_Reader->seek
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 56
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -432
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 56
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(21)
+255 0 160
+
+fl=(1)
+fn=(49) php::trim
+257 0 160
+
+fl=(3)
+fn=(50) Webgrind_Reader->readLine
+254 0 -160
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 160
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 160
+
+fl=(1)
+fn=(21)
+255 0 80
+
+fl=(1)
+fn=(49)
+257 0 80
+
+fl=(3)
+fn=(50)
+254 0 -80
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 80
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 80
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(21)
+255 0 40
+
+fl=(1)
+fn=(49)
+257 0 40
+
+fl=(3)
+fn=(50)
+254 0 -40
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 40
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 40
+
+fl=(1)
+fn=(51) php::explode
+205 0 440
+
+fl=(1)
+fn=(21)
+255 0 64
+
+fl=(1)
+fn=(49)
+257 0 64
+
+fl=(3)
+fn=(50)
+254 0 -64
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 64
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 64
+
+fl=(1)
+fn=(51)
+205 0 464
+
+fl=(1)
+fn=(21)
+255 0 80
+
+fl=(1)
+fn=(49)
+257 0 80
+
+fl=(3)
+fn=(50)
+254 0 -80
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 80
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 80
+
+fl=(1)
+fn=(51)
+205 0 488
+
+fl=(1)
+fn=(21)
+255 0 40
+
+fl=(1)
+fn=(49)
+257 0 32
+
+fl=(3)
+fn=(50)
+254 0 -40
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 40
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 32
+
+fl=(1)
+fn=(51)
+205 0 440
+
+fl=(1)
+fn=(21)
+255 0 48
+
+fl=(1)
+fn=(49)
+257 0 40
+
+fl=(3)
+fn=(50)
+254 0 -48
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 48
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 40
+
+fl=(1)
+fn=(51)
+205 0 448
+
+fl=(1)
+fn=(21)
+255 0 48
+
+fl=(1)
+fn=(49)
+257 0 48
+
+fl=(3)
+fn=(50)
+254 0 -48
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 48
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 48
+
+fl=(1)
+fn=(51)
+205 0 448
+
+fl=(1)
+fn=(21)
+255 0 0
+
+fl=(3)
+fn=(50)
+254 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 0
+
+fl=(3)
+fn=(52) Webgrind_Reader->getHeader
+195 0 -2248
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+197 0 0
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+204 0 40
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+205 0 440
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+204 0 64
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+205 0 464
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+204 0 80
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+205 0 488
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+204 0 32
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+205 0 440
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+204 0 40
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+205 0 448
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+204 0 48
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+205 0 448
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+204 0 0
+
+fl=(1)
+fn=(53) php::number_format
+235 0 32
+
+fl=(3)
+fn=(54) Webgrind_Reader->formatCost
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 784
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(55) Webgrind_Reader->getFunctionInfo
+110 0 320
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+111 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+113 0 376
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+115 0 0
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+116 0 160
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+117 0 80
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+130 0 816
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+131 0 32
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 48
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -424
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 48
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(56) Webgrind_Reader->getCalledFromInfo
+143 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+147 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+150 0 376
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+159 0 32
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 56
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 999 -432
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 56
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(21)
+255 0 160
+
+fl=(1)
+fn=(49)
+257 0 160
+
+fl=(3)
+fn=(50)
+254 0 -160
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 160
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 160
+
+fl=(1)
+fn=(21)
+255 0 80
+
+fl=(1)
+fn=(49)
+257 0 80
+
+fl=(3)
+fn=(50)
+254 0 -80
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 80
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 80
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(55)
+110 0 320
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+111 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+113 999 376
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+115 0 0
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+116 0 160
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+117 0 80
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+130 0 32
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+131 0 32
+
+fl=(1)
+fn=(57) php::urlencode
+113 0 160
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 32
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(3)
+fn=(43)
+246 0 -408
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 32
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 48
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -424
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 48
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(58) Webgrind_Reader->getSubCallInfo
+171 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+173 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+174 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+175 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+176 0 376
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+185 0 32
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 56
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -432
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 56
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(21)
+255 0 40
+
+fl=(1)
+fn=(49)
+257 0 40
+
+fl=(3)
+fn=(50)
+254 0 -40
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 40
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 40
+
+fl=(1)
+fn=(21)
+255 0 40
+
+fl=(1)
+fn=(49)
+257 0 40
+
+fl=(3)
+fn=(50)
+254 0 -40
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 40
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 40
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(55)
+110 0 320
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+111 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+113 0 376
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+115 0 0
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+116 0 40
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+117 0 40
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+130 0 32
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+131 0 32
+
+fl=(1)
+fn=(57)
+122 0 160
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 32
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(3)
+fn=(43)
+246 0 -408
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 32
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 48
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -424
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 48
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(58)
+171 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+173 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+174 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+175 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+176 0 376
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+185 0 32
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 56
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -432
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 56
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(21)
+255 0 40
+
+fl=(1)
+fn=(49)
+257 0 40
+
+fl=(3)
+fn=(50)
+254 0 -40
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 40
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 40
+
+fl=(1)
+fn=(21)
+255 0 48
+
+fl=(1)
+fn=(49)
+257 0 48
+
+fl=(3)
+fn=(50)
+254 0 -48
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 48
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 48
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(55)
+110 0 320
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+111 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+113 0 376
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+115 0 0
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+116 0 40
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+117 0 48
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+130 0 32
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+131 0 32
+
+fl=(1)
+fn=(57)
+122 0 160
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 32
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(3)
+fn=(43)
+246 0 -408
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 32
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 48
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -424
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 48
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(58)
+171 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+173 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+174 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+175 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+176 0 376
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+185 0 32
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 56
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -432
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 56
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(21)
+255 0 40
+
+fl=(1)
+fn=(49)
+257 0 40
+
+fl=(3)
+fn=(50)
+254 0 -40
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 40
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 40
+
+fl=(1)
+fn=(21)
+255 0 48
+
+fl=(1)
+fn=(49)
+257 0 48
+
+fl=(3)
+fn=(50)
+254 0 -48
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 48
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 48
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(55)
+110 0 320
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+111 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+113 0 376
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+115 0 0
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+116 0 40
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+117 0 48
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+130 0 32
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+131 0 32
+
+fl=(1)
+fn=(57)
+122 0 160
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 32
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(3)
+fn=(43)
+246 0 -408
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 32
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 48
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -424
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 48
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(58)
+171 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+173 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+174 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+175 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+176 0 376
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+185 0 32
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 56
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -432
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 56
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(21)
+255 0 40
+
+fl=(1)
+fn=(49)
+257 0 40
+
+fl=(3)
+fn=(50)
+254 999 -40
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 40
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 40
+
+fl=(1)
+fn=(21)
+255 0 48
+
+fl=(1)
+fn=(49)
+257 0 48
+
+fl=(3)
+fn=(50)
+254 0 -48
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 48
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 48
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(55)
+110 0 320
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+111 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+113 0 376
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+115 0 0
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+116 999 40
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+117 0 48
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+130 0 32
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+131 0 32
+
+fl=(1)
+fn=(57)
+122 0 160
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 32
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(3)
+fn=(43)
+246 0 -408
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 32
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 48
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -424
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 48
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(58)
+171 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+173 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+174 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+175 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+176 0 376
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+185 0 32
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 56
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -432
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 56
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(21)
+255 0 40
+
+fl=(1)
+fn=(49)
+257 0 40
+
+fl=(3)
+fn=(50)
+254 0 -40
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 40
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 40
+
+fl=(1)
+fn=(21)
+255 0 48
+
+fl=(1)
+fn=(49)
+257 0 48
+
+fl=(3)
+fn=(50)
+254 0 -48
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 48
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 48
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(55)
+110 0 320
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+111 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+113 0 376
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+115 0 0
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+116 0 40
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+117 0 48
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+130 0 32
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+131 0 32
+
+fl=(1)
+fn=(57)
+122 0 160
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 32
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(3)
+fn=(43)
+246 0 -408
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 32
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 48
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -424
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 48
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(58)
+171 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+173 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+174 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+175 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+176 0 376
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+185 0 32
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 56
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -432
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 56
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(21)
+255 0 160
+
+fl=(1)
+fn=(49)
+257 0 160
+
+fl=(3)
+fn=(50)
+254 0 -160
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 160
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 160
+
+fl=(1)
+fn=(21)
+255 0 96
+
+fl=(1)
+fn=(49)
+257 0 80
+
+fl=(3)
+fn=(50)
+254 0 -96
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 96
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 80
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(55)
+110 0 320
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+111 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+113 0 376
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+115 0 0
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+116 0 160
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+117 0 80
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+130 0 32
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+131 0 32
+
+fl=(1)
+fn=(57)
+122 0 160
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 32
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(3)
+fn=(43)
+246 0 -408
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 32
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 48
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -424
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 48
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(58)
+171 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+173 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+174 0 0
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+175 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+176 0 376
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+185 0 32
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(40)
+247 0 56
+
+fl=(1)
+fn=(41)
+247 0 376
+
+fl=(1)
+fn=(42)
+251 0 376
+
+fl=(3)
+fn=(43)
+246 0 -432
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+247 0 56
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+247 0 376
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+251 0 376
+
+fl=(1)
+fn=(47)
+263 0 0
+
+fl=(3)
+fn=(48)
+262 0 0
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+263 0 0
+
+fl=(1)
+fn=(21)
+255 0 40
+
+fl=(1)
+fn=(49)
+257 0 40
+
+fl=(3)
+fn=(50)
+254 0 -40
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 40
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 40
+
+fl=(1)
+fn=(21)
+255 0 48
+
+fl=(1)
+fn=(49)
+257 0 48
+
+fl=(3)
+fn=(50)
+254 0 -48
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+255 0 48
+cfl=(1)
+cfn=(49)
+calls=1 0 0
+257 0 48
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(52)
+195 0 0
+
+fl=(1)
+fn=(53)
+235 0 32
+
+fl=(3)
+fn=(54)
+228 0 0
+cfl=(3)
+cfn=(52)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+235 0 32
+
+fl=(3)
+fn=(55)
+110 0 320
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+111 0 0
+cfl=(3)
+cfn=(43)
+calls=1 0 0
+113 0 376
+cfl=(3)
+cfn=(48)
+calls=1 0 0
+115 0 0
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+116 0 40
+cfl=(3)
+cfn=(50)
+calls=1 0 0
+117 0 48
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+130 0 32
+cfl=(3)
+cfn=(54)
+calls=1 0 0
+131 0 32
+
+fl=(1)
+fn=(57)
+122 0 160
+
+fl=(1)
+fn=(59) php::header
+243 0 96
+
+fl=(1)
+fn=(60) php::json_encode
+244 0 4096
+
+fl=(6)
+fn=(61) sendJson
+242 0 -4096
+cfl=(1)
+cfn=(59)
+calls=1 0 0
+243 0 96
+cfl=(1)
+cfn=(60)
+calls=1 0 0
+244 0 4096
+
+fl=(6)
+fn=(62) {main}
+1 4000 39576
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+9 0 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+9 0 0
+cfl=(2)
+cfn=(3)
+calls=1 0 0
+19 0 0
+cfl=(5)
+cfn=(6)
+calls=1 0 0
+20 3000 54128
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+25 0 408
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+28 0 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+29 0 24
+cfl=(6)
+cfn=(10)
+calls=1 0 0
+32 0 0
+cfl=(5)
+cfn=(39)
+calls=1 0 0
+103 29999 3176
+cfl=(6)
+cfn=(10)
+calls=1 0 0
+103 0 0
+cfl=(6)
+cfn=(10)
+calls=1 0 0
+103 0 0
+cfl=(5)
+cfn=(46)
+calls=1 0 0
+103 999 17384
+cfl=(6)
+cfn=(10)
+calls=1 0 0
+104 0 0
+cfl=(3)
+cfn=(55)
+calls=1 0 0
+105 0 1784
+cfl=(3)
+cfn=(56)
+calls=1 0 0
+110 0 408
+cfl=(3)
+cfn=(55)
+calls=1 0 0
+112 999 1000
+cfl=(1)
+cfn=(57)
+calls=1 0 0
+113 0 160
+cfl=(3)
+cfn=(58)
+calls=1 0 0
+120 0 408
+cfl=(3)
+cfn=(55)
+calls=1 0 0
+121 0 840
+cfl=(1)
+cfn=(57)
+calls=1 0 0
+122 0 160
+cfl=(3)
+cfn=(58)
+calls=1 0 0
+120 0 408
+cfl=(3)
+cfn=(55)
+calls=1 0 0
+121 0 848
+cfl=(1)
+cfn=(57)
+calls=1 0 0
+122 0 160
+cfl=(3)
+cfn=(58)
+calls=1 0 0
+120 0 408
+cfl=(3)
+cfn=(55)
+calls=1 0 0
+121 0 848
+cfl=(1)
+cfn=(57)
+calls=1 0 0
+122 0 160
+cfl=(3)
+cfn=(58)
+calls=1 0 0
+120 0 408
+cfl=(3)
+cfn=(55)
+calls=1 0 0
+121 999 848
+cfl=(1)
+cfn=(57)
+calls=1 0 0
+122 0 160
+cfl=(3)
+cfn=(58)
+calls=1 0 0
+120 0 408
+cfl=(3)
+cfn=(55)
+calls=1 0 0
+121 0 848
+cfl=(1)
+cfn=(57)
+calls=1 0 0
+122 0 160
+cfl=(3)
+cfn=(58)
+calls=1 0 0
+120 0 408
+cfl=(3)
+cfn=(55)
+calls=1 0 0
+121 0 1000
+cfl=(1)
+cfn=(57)
+calls=1 0 0
+122 0 160
+cfl=(3)
+cfn=(58)
+calls=1 0 0
+120 0 408
+cfl=(3)
+cfn=(55)
+calls=1 0 0
+121 0 848
+cfl=(1)
+cfn=(57)
+calls=1 0 0
+122 0 160
+cfl=(6)
+cfn=(61)
+calls=1 0 0
+126 0 96
+
+summary: 41000 1195760
+

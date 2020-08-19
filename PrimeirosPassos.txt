@@ -46,3 +46,8 @@ http://xdebug.org/docs/basic
   xdebug.dump.SERVER=*
   xdebug.profiler_enable=1
   xdebug.profiler_output_dir='C:\MyGit\PHP-Xdebug\profile'
+
+
+  -- webgrind
+  -> entrar no diretorio webgrind
+  -> composer server
