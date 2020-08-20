@@ -1,4 +1,5 @@
 <?php
 $teste = 'Teste de Variavel';
 $testesoma= 5 + 2;
-phpinfo();
+echo $testesoma;
+//phpinfo();
